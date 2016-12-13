@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Html Table with CSS Styles</title>
+	<link rel="stylesheet" href="table3.css">
+	<style type="text/css">
+		.table2{
+				margin-top: 20px;
+				margin-bottom: 20px;
+				width: 20%;
+				font-size: 18px;
+		}
+	</style>
+</head>
+<body style="margin:auto; font-family: sans-serif; background: antiquewhite;">
+	<center>
+		<h1>2008 OFFICER</h1>
+
+	<!-- Inline CSS for Table 1 -->
+
+		<table border="1" style="width: 30%; font-size: 18px;"> <!-- Inline CSS for Table 1 -->
+			<thead>
+				<tr>
+					<th colspan="3">Current Officers</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td>President</td><td>Kratika</td><td>555-7879</td></tr>
+				<tr><td>Vice-President</td><td>Rahul</td><td>521-5654</td></tr>
+				<tr><td>President</td><td>Seema</td><td>898-5546</td></tr>				
+			</tbody>
+		</table>
+
+		<!-- Embedded CSS for Table 2 class named as table2 -->
+
+		<table border="1" class="table2"> 
+			<thead>
+				<tr>
+					<th colspan="2">Board Members at Large</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td>Kratika</td><td>555-7879</td></tr>
+				<tr><td>Rahul</td><td>521-5654</td></tr>								
+			</tbody>
+		</table>
+
+		<!-- External CSS for Table 3 stylesheet named as table3.css -->
+			
+		<table border="1" class="table3"> 
+			<thead>
+				<tr>
+					<th colspan="2">Calling Committee</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="align"><th>Chairnam : Harry Bean</th><th>555-7879</th></tr>				
+				<tr><td>Rahul</td><td>521-5654</td></tr>
+				<tr><td>Krati</td><td>555-3698</td></tr>
+				<tr><td>Seema</td><td>585-4256</td></tr>
+				<tr><td>Naveen</td><td>423-4547</td></tr>
+				<tr><td>Arpit</td><td>256-5878</td></tr>
+				<tr><td>Akash</td><td>454-5685</td></tr>								
+			</tbody>
+		</table>
+
+	</center>	
+</body>
+</html>
